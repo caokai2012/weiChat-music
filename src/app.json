@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/sreach/main",
+    "pages/ranklist/main",
+    "pages/songlist/main",
+    "pages/songplay/main",
+    "pages/logs/main"  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#70c24a",
+    "navigationBarTitleText": "我的音乐",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+
+    "list": [{
+      "text": "推荐",
+      "pagePath": "pages/index/main"
+     
+    }, {
+      "text": "排行榜",
+      "pagePath": "pages/ranklist/main"
+    }
+    , {
+      "text": "搜索",
+      "pagePath": "pages/sreach/main"
+    }
+  ],
+
+    "position": "top"
+  }
+}
